@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
-    width: 1440px;
+    /* width: 1440px; */
+    /* width: 100%; */
     position: relative;
     color: rgba(255, 255, 255, 1);
     font-family: Rubik;
@@ -113,11 +114,14 @@ a {
     text-align: center;
     font-weight: regular;
     padding-top: 50px;
+
 }
 
 .brief {
     height: 140px;
     background-color: #D9D9D9;
+    width: auto;
+    padding-left: 0px;
 }
 
 nav {
@@ -134,7 +138,16 @@ nav {
 .we {
     padding-left: 135px;
     padding-top: 100px;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 65px;
+    letter-spacing: 2%;
+    color: #253D32;
+}
 
+.wee {
+    padding-left: 135px;
+    padding-top: 100px;
     font-weight: bold;
     font-size: 42px;
     line-height: 65px;
@@ -252,6 +265,7 @@ nav {
 
 .upload {
     margin-left: 151px;
+    width: auto;
 }
 
 #say {
@@ -287,6 +301,8 @@ nav {
     line-height: 36px;
     letter-spacing: 0%;
     padding-left: 135px;
+    color: rgba(37, 61, 50, 1);
+
 }
 
 #bot {
@@ -421,8 +437,9 @@ footer {
     padding-left: 661px;
     margin-top: -245px;
 }
-.serve{
-    padding-left: 848px; 
+
+.serve {
+    padding-left: 848px;
     font-family: Rubik;
     font-weight: 700;
     font-size: 24px;
@@ -431,8 +448,9 @@ footer {
     color: rgba(37, 61, 50, 1);
     margin-top: -200px;
 }
-.company{
-    padding-left: 1140px; 
+
+.company {
+    padding-left: 1140px;
     font-family: Rubik;
     font-weight: 700;
     font-size: 24px;
@@ -448,20 +466,546 @@ footer {
     font-size: 16px;
     line-height: 34px;
     letter-spacing: 0%;
-  
+
 }
-.grey{
+
+.grey {
     color: rgba(120, 132, 125, 1);
     padding-left: 661px;
     padding-bottom: 20px;
 }
-.grey2{
+
+.grey2 {
     color: rgba(120, 132, 125, 1);
     padding-left: 848px;
     padding-bottom: 20px;
 }
-.grey3{
+
+.grey3 {
     color: rgba(120, 132, 125, 1);
     padding-left: 1140px;
     padding-bottom: 20px;
+}
+
+/* @media only screen and (max-width: 1260px) {
+body{
+    background-color: red;
+}
+section{
+    width: 1260px;
+}
+#free {
+    margin-left: 1000px;
+}
+.brief{
+    max-width: 1260px;
+    background-size: cover;
+}
+.cube {
+    margin-left: 650px;
+}
+
+.pilgrim {
+    margin-left: 966px;
+}
+
+.circle {
+    margin-left: 650px;
+}
+
+.cup {
+    margin-left: 966px;
+}
+
+.busy {
+    margin-top: -500px;
+    margin-left: 650px;
+}
+.grouped {
+    margin-left: 50px;
+    margin-top: 80px;
+}
+.upload {
+    margin-left: 80px;
+}
+#sea {
+    padding-left: 60px;
+}
+.we {
+    padding-left: 60px;
+}
+
+.aug {
+    padding-left: 60px;
+}
+
+#seo {
+    padding-left: 60px;
+}
+
+#bot {
+    padding-left: 5px;
+}
+
+#con {
+    margin-left: 689px;
+    margin-top: -770px;
+}
+
+#brand {
+    margin-top: 45px;
+    margin-left: 645px;
+}
+
+#copy {
+    margin-left: 950px;
+    margin-top: -250px;
+}
+
+#top {
+    margin-top: 20px;
+    margin-left: 650px;
+}
+
+#during {
+    margin-top: -210px;
+    margin-left: 950px;
+}
+
+#eye {
+    margin-left: 605px;
+    margin-top: 30px;
+}
+
+#ai {
+    margin-left: 915px;
+    margin-top: -170px;
+}
+.mg {
+    margin-left: 60px;
+    margin-top: 80px;
+}
+#box {
+    margin-left: 60.63px;
+    margin-top: -526px;
+}
+
+#mix {
+    margin-left: 934px;
+    margin-top: -182px;
+} */
+@media only screen and (max-width: 1300px) {
+    body {
+        background-color: rgb(0, 162, 255);
+    }
+
+    #fpacu {
+        padding-left: 444px;
+    }
+
+    #fpacu1 {
+        padding-left: 559px;
+    }
+
+    #fpacu2 {
+        padding-left: 664px;
+    }
+
+    #fpacu3 {
+        padding-left: 762px;
+    }
+
+    #free {
+        margin-left: 1045px;
+    }
+
+    #best {
+        padding-left: 544px;
+    }
+
+    #digital {
+        padding-left: 300px;
+    }
+
+    #complete {
+        padding-left: 362px;
+    }
+
+    #get {
+        margin-left: 540px;
+    }
+
+    nav {
+        margin-left: 187px;
+    }
+
+    nav {
+        padding-top: 50px;
+        margin-left: 0px;
+    }
+
+    .we {
+        padding-left: 80px;
+
+    }
+
+    .wee {
+        padding-left: 400px;
+    }
+
+    .full {
+        padding-left: 80px;
+    }
+
+    #see {
+        margin-left: 80px;
+    }
+
+    .cube {
+        margin-left: 628px;
+        margin-top: -400px;
+    }
+
+    .pilgrim {
+        margin-left: 946px;
+        margin-top: -250px;
+    }
+
+    .circle {
+        margin-left: 628px;
+        margin-top: 120px;
+    }
+
+    .cup {
+        margin-left: 946px;
+        margin-top: -250px;
+    }
+
+    .busy {
+        margin-top: -460px;
+        margin-left: 662px;
+    }
+
+    #get2 {
+        margin-left: 100px;
+    }
+
+    .grouped {
+        margin-left: 25.57px;
+        margin-top: 100px;
+    }
+
+    #think {
+        margin-left: 171.84px;
+        margin-top: -280px;
+    }
+
+    #double {
+        margin-left: 160.51px;
+    }
+
+    #how {
+        padding-left: 426px;
+    }
+
+    #let {
+        padding-left: 521px;
+    }
+
+    .upload {
+        margin-left: 46px;
+    }
+
+    #say {
+        margin-left: 590px;
+        margin-top: 70px;
+    }
+
+    .articles {
+        height: 1700px;
+    }
+
+    #sea {
+        padding-left: 400px;
+    }
+
+    .aug {
+        padding-left: 400px;
+    }
+
+    #seo {
+        padding-left: 400px;
+
+    }
+
+    #bot {
+        padding-left: 360px;
+    }
+
+    #con {
+        margin-left: 400px;
+        margin-top: 0px;
+    }
+
+    #brand {
+        margin-top: 45px;
+        margin-left: 400px;
+    }
+
+    #copy {
+        margin-left: 725px;
+        margin-top: -250px;
+    }
+
+    #top {
+        margin-top: 20px;
+        margin-left: 730px;
+    }
+
+    #during {
+        margin-top: -210px;
+        margin-left: 405px;
+    }
+
+    #eye {
+        margin-left: 370px;
+        margin-top: 30px;
+    }
+
+    #ai {
+        margin-left: 690px;
+        margin-top: -170px;
+    }
+
+    .mg {
+        margin-left: 80px;
+    }
+
+    #box {
+        margin-left: 79.63px;
+        margin-top: -526px;
+    }
+
+    #mix {
+        margin-left: 845px;
+        margin-top: -182px;
+    }
+
+    .me {
+        margin-left: 200px;
+        margin-top: -480px;
+    }
+
+    #mail {
+        width: 200px;
+        height: 50px;
+    }
+
+    #scribe {
+        width: 200px;
+        height: 50px;
+
+    }
+
+    .menu {
+        padding-left: 411px;
+    }
+
+    .serve {
+        padding-left: 598px;
+    }
+
+    .company {
+        padding-left: 840px;
+    }
+
+    .grey {
+        color: rgba(120, 132, 125, 1);
+        padding-left: 415px;
+        padding-bottom: 20px;
+    }
+
+    .grey2 {
+        color: rgba(120, 132, 125, 1);
+        padding-left: 598px;
+        padding-bottom: 20px;
+    }
+
+    .grey3 {
+        color: rgba(120, 132, 125, 1);
+        padding-left: 840px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: rgb(253, 124, 189);
+    }
+
+    #free {
+        margin-left: 135px;
+        margin-top: 65px;
+    }
+    #best {
+        padding-left: 664px;
+        margin-top: -100px;
+    }
+
+    nav {
+        padding-top: 50px;
+        margin-left: -180px;
+    }
+
+    .strategy {
+        height: 1990px;
+    
+    }
+
+    .pilgrim {
+        margin-left: 80px;
+        margin-top: 250px;
+    }
+
+    .circle {
+        margin-left: 470px;
+        margin-top: -250px;
+    }
+
+    .cup {
+        margin-left: 788px;
+    }
+    .grouped {
+        margin-left: 125.57px;
+        margin-top: 100px;
+    }
+
+    #think {
+        margin-left: 271.84px;
+        margin-top: -280px;
+    }
+
+    #double {
+        margin-left: 260.51px;
+    }
+    .busy {
+        margin-top: 100px;
+        margin-left: 125px;
+    }
+    #how {
+        padding-left: 326px;
+    }
+
+    #let {
+        padding-left: 421px;
+    }
+
+    .upload {
+        margin-left: -30px;
+    }
+
+    #sea {
+        padding-left: 200px;
+    }
+
+    .aug {
+        padding-left: 200px;
+    }
+
+    #seo {
+        padding-left: 200px;
+
+    }
+
+    #bot {
+        padding-left: 160px;
+    }
+
+    #con {
+        margin-left: 200px;
+    }
+
+    #brand {
+        margin-left: 200px;
+    }
+
+    #copy {
+        margin-left: 525px;
+    }
+
+    #top {
+        margin-left: 530px;
+    }
+
+    #during {
+        margin-left: 205px;
+    }
+
+    #eye {
+        margin-left: 170px;
+    }
+
+    #ai {
+        margin-left: 490px;
+    }
+    .wee {
+        padding-left: 200px;
+    }
+    #mix {
+        margin-left: 679px;
+    }
+
+    .menu {
+        padding-left: 359px;
+    }
+
+    .serve {
+        padding-left: 548px;
+    }
+
+    .company {
+        padding-left: 790px;
+    }
+
+    .grey {
+        padding-left: 359px;
+    }
+
+    .grey2 {
+        padding-left: 548px;
+    }
+
+    .grey3 {
+        padding-left: 790px;
+    } 
+
+}
+
+@media only screen and (max-width: 1050px) {
+    body {
+        background-color: rgb(255, 132, 0);
+    }
+    nav {
+        padding-top: 50px;
+        margin-left: 187px;
+    }
+        .brief {
+            height: 140px;
+            transform: rotate(90deg);
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: brown;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+
 }
